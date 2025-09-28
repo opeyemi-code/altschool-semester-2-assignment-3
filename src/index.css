@@ -639,7 +639,6 @@ body {
     width: 17.5625rem;
   }
 
-  /* hide filter dialog on desktop */
   .filter__dialog {
     display: none;
   }
