@@ -457,7 +457,6 @@ body {
 
   .trending__items-img:last-child {
     display: none;
-    border: 0.0625rem solid;
   }
 
   .products__title {

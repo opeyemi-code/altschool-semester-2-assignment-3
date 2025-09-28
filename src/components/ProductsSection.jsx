@@ -92,7 +92,7 @@ function ProductsContent() {
   );
 }
 
-export default function Products() {
+export default function ProductsSection() {
   const [isToggleDialog, setIsToggleDialog] = useState(true);
 
   useEffect(() => {

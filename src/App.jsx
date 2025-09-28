@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
-import Products from "./components/products";
+import ProductsSection from "./components/ProductsSection";
 import Cart from "./components/Cart";
 // import { document } from "postcss";
 
@@ -22,7 +22,7 @@ function App() {
         <Header toggleCartOpen={toggleCart} />
         <main className="main">
           <HeroSection />
-          <Products />
+          <ProductsSection />
           {/* render cart UI */}
           {isCartOpen && (
             <Cart
